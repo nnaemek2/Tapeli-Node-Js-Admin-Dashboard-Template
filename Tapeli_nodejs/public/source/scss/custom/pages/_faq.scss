@@ -1,0 +1,51 @@
+// 
+// FAQs
+// 
+
+.faq-icon-box {
+    align-items: center;
+    justify-content: center;
+    min-width: 35px;
+    height: 35px;
+    width: 35px;
+    background-color: $white;   
+    border-radius: 5px;
+    float: left;
+    display: flex;
+    border: 2px solid $gray-200;
+}
+
+.f-question {
+    margin-top: 0;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    color: $dark;
+}
+.f-answer {
+    margin-left: 60px;
+}
+.icon-md {
+    height: 16px;
+    min-width: 16px;
+}
+.accordion-item-faq {
+    background-color: $gray-100;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 15px 18px;
+    display: block;
+    .accordion-button {
+        background-color: $gray-100;
+        padding: 0px;
+        font-size: 16px;
+        box-shadow: none;
+        color: $dark;
+    }
+    .accordion-body {
+        padding: 20px 0px;
+    }
+}
+.accordion-item-faq:not(:first-of-type) {
+    border: var(--#{$prefix}accordion-border-width) solid var(--#{$prefix}accordion-border-color);
+}

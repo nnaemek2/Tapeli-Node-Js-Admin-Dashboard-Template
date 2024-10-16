@@ -1,0 +1,33 @@
+// 
+// Pricing.scss
+//
+
+.pricing-box {
+    position: relative;
+    .inner-box {
+        position: relative;
+    }
+    .plan-title {
+        font-size: 21px;
+        margin-bottom: 16px;
+        color: $dark;
+        text-transform: capitalize;
+        font-weight: 600;
+    }   
+    .plan-subtitle {
+        font-size: 14px;
+        margin-bottom: 28px;
+        color: #{map-get($grays, "600")};
+    }
+    .plan-stats {
+        margin-bottom: 32px;
+        li {
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        .check-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

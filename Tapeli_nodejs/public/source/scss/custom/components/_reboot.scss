@@ -1,0 +1,21 @@
+//
+// reboot.scss
+//
+
+body {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: $body-secondary-bg;
+    &.loading {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media print {
+    .topbar-custom,
+    .app-sidebar-menu,
+    .d-flex {
+        display: none !important;
+    }
+}

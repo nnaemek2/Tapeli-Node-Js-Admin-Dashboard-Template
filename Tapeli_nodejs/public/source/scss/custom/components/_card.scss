@@ -1,0 +1,21 @@
+// 
+// card.scss
+//
+
+.card {
+    box-shadow: $box-shadow-sm;
+    margin-bottom: $grid-gutter-width;
+}
+
+.card-header {
+    border-bottom: 1px solid var(--#{$prefix}border-color);
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-h-full {
+    height: calc(100% - #{$grid-gutter-width});
+}

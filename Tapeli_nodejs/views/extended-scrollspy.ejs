@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        @@include("partials/title-meta.html", {"title": "Scrollspy"})
+
+        @@include('./partials/head-css.html')
+
+    </head>
+
+    @@include('./partials/body.html')
+
+        <!-- Begin page -->
+        <div id="app-layout">
+
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+        
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-xxl">
+
+                        <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
+                            <div class="flex-grow-1">
+                                <h4 class="fs-18 fw-semibold m-0">Scrollspy</h4>
+                            </div>
+            
+                            <div class="text-end">
+                                <ol class="breadcrumb m-0 py-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Components</a></li>
+                                    <li class="breadcrumb-item active">Scrollspy</li>
+                                </ol>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5 class="card-title mb-0">Navbar Example</h5>
+                                    </div><!-- end card header -->
+        
+                                    <div class="card-body">
+                                        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                                            <a class="navbar-brand" href="#">Navbar</a>
+                                            <ul class="nav nav-pills">
+                                              <li class="nav-item">
+                                                <a class="nav-link active" href="#scrollspyHeading1">First</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                                              </li>
+                                              <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                                  <li><hr class="dropdown-divider"></li>
+                                                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </nav>
+                                          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                                            <h4 id="scrollspyHeading1">First heading</h4>
+                                            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                                            <h4 id="scrollspyHeading2">Second heading</h4>
+                                            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                                            <h4 id="scrollspyHeading3">Third heading</h4>
+                                            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                                            <h4 id="scrollspyHeading4">Fourth heading</h4>
+                                            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                                            <h4 id="scrollspyHeading5">Fifth heading</h4>
+                                            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                                          </div>
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+                            </div> <!-- end col -->
+
+                        </div> <!-- end row -->
+                        
+                    </div> <!-- container-fluid -->
+
+                </div> <!-- content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/vendor.html')
+
+        <!-- App js-->
+        <script src="assets/js/app.js"></script>
+        
+    </body>
+</html>

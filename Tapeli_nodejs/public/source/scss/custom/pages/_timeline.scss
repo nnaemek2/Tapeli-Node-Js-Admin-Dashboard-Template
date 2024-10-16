@@ -1,0 +1,75 @@
+// 
+//  Time Line Page
+// 
+
+.timeline-page {
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 95%;
+        margin: auto;
+        width: 1px;
+        // background-color: $gray-400;
+        border: 1px dashed rgba($primary, 0.30);
+    }
+    .timeline-section {
+        .label-left {
+            float: right;
+            margin-top: 20px;
+            margin-right: 15px;
+            background-color: $white;
+            &:after {
+                right: -34px;
+            }
+        }
+        .label-right {
+            float: left;
+            margin-top: 20px;
+            margin-left: 15px;
+            background-color: $white;
+            &:after {
+                left: -34px;
+            }
+        }
+        .label-left, .label-right {
+            margin-right: 15px;
+        }
+        .description-right {
+            margin-top: 20px;
+            margin-left: 15px;
+            text-align: left;
+        }
+        .description-left {
+            margin-top: 20px;
+            margin-right: 15px;
+            text-align: right;
+        }
+        .title {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .timeline-subtitle {
+            font-size: 14px;
+            color: $gray-300;
+        }
+    }
+}
+.timeline-page {
+    .timeline-section {
+        .label-left, .label-right {
+            &:after {
+                content: "";
+                position: absolute;
+                top: 12px;
+                width: 16px;
+                height: 16px;
+                z-index: 1;
+                background-color: var(--bs-primary);
+                border-radius: 50%;
+            }
+        }
+    }
+}

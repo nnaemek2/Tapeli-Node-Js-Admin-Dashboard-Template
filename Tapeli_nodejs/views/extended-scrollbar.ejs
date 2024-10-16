@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        @@include("partials/title-meta.html", {"title": "Scrollbar"})
+
+        @@include('./partials/head-css.html')
+
+    </head>
+
+    @@include('./partials/body.html')
+
+        <!-- Begin page -->
+        <div id="app-layout">
+
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+        
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-xxl">
+
+                        <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
+                            <div class="flex-grow-1">
+                                <h4 class="fs-18 fw-semibold m-0">Scrollbar</h4>
+                            </div>
+            
+                            <div class="text-end">
+                                <ol class="breadcrumb m-0 py-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Components</a></li>
+                                    <li class="breadcrumb-item active">Scrollbar</li>
+                                </ol>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- container-fluid -->
+
+                </div> <!-- content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/vendor.html')
+
+        <!-- App js-->
+        <script src="assets/js/app.js"></script>
+        
+    </body>
+</html>

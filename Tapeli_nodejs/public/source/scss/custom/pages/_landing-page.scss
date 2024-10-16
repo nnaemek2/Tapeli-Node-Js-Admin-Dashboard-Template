@@ -1,0 +1,181 @@
+// 
+// Landing Page Components
+// 
+
+.hero-section {
+    background-image: url(../images/landing/bg-pattern.svg);
+    .caption-box {
+        span {
+            background-color: $white;
+        }
+        .caption-title {
+            color: $dark;
+            font-size: 45px;
+            max-width: 850px !important;
+        }
+        .subtitle {
+            max-width: 550px;
+            margin: 0px auto;
+            font-size: 16px;
+        }
+    }
+    .main-dashboard {
+        margin: 0px auto;
+        z-index: 1;
+        padding: 1rem;
+        img{
+            
+            border: 1px #ced4da;
+            margin: 0px auto;
+        }
+    }
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+.section-half {
+    padding: 60px 0px;
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+.shape {
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    bottom: -2px;
+    left: 0;
+}
+
+.title-heading {
+    font-size: 35px;
+}
+.spacing-1 {
+    letter-spacing: 1px;
+}
+
+.small-container {
+    padding: 8px 14px;
+}
+// Services
+.service {
+    .icon-box {
+        padding: 15px 15px;
+        background-color: $white;
+        box-shadow: $box-shadow-sm;
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+    }
+}
+
+// demo 
+.demo-img {
+    box-shadow: 0 1px 50px rgba(207, 207, 207, 0.35);
+    position: relative;
+    border: 0px;
+    transition: all 0.5s ease;
+    &:hover {
+        transform: scale(1.02) translateZ(0);
+    }
+}
+
+// feathers
+.features-key {
+    background-color: $white;
+}
+.bg-features {
+    background-color: $gray-100;
+}
+.bg-gray {
+    background-color: $gray-100;
+}
+.header-section {
+    span {
+        letter-spacing: 1px;
+    }
+}
+
+// Testimonials
+.next-prev {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $white;
+    box-shadow: $box-shadow-sm;
+}
+
+// Contact
+.contact-detail {
+    .icon {
+        height: 55px;
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: rgba($primary, 0.1);
+    }
+}
+
+// Footer
+.footer-section {
+    .footer-text-style {
+        color: $gray-600;
+    }
+    .social-text {
+        li {
+            a {
+                font-size: 15px;
+                font-weight: 500;
+                text-transform: capitalize;
+                line-height: 1.5;
+                color: $gray-600;
+                transition: all 1s;
+                &:hover {
+                    color: $primary;
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+    .foot-social-icon {
+        li {
+            a {
+                color: $primary;
+                display: flex;
+                font-weight: 500;
+                height: 32px;
+                width: 32px;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.4s ease;
+                overflow: hidden;
+                position: relative;
+                border: 1px solid $gray-300;
+                &:hover {
+                    background-color: $primary;
+                    color: $white;
+                    transition: all 0.4s ease;
+                    border: 1px solid $primary;
+                }
+            }
+        }
+    }
+}
+.bg-dark-color {
+    background-color: #222222;
+}
+
+.para-desc {
+    max-width: 600px;
+}
