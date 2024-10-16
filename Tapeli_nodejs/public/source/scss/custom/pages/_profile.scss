@@ -1,0 +1,38 @@
+// 
+// Profile.scss
+//
+
+.profile-bg-picture {
+    background-image: url("../images/bg-profile.svg");
+}
+.social-item {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    line-height: 20px;
+    border: 2px solid $gray-500;
+    border-radius: 50%;
+    color: $gray-500;
+}
+.profile-section {
+    .profile-item {
+        position: relative;
+        padding-bottom: 24px;
+        padding-left: 35px;
+        // border-left: 2px solid $primary;
+        .profile-icon {
+            position: absolute;
+            top: -6px;
+            left: -20px;
+        }
+    }
+}
+
+.list-inline-dots {
+    .list-inline-item-second {
+        &::before {
+            content: " · ";
+            margin-inline-end: .5rem;
+        }    
+    }
+}

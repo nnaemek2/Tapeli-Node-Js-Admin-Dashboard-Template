@@ -1,0 +1,60 @@
+// 
+//  Authentication
+// 
+
+.account-page {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    .account-page-bg{
+        background: #f8f9fb;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .pera-title {
+            max-width: 500px;
+            margin: auto;
+        }
+        .auth-image {
+            max-width: 500px;
+            margin: auto;
+        }
+    }
+}
+
+
+
+.header-box {
+    background-color: $primary;
+}
+.auth-button a{
+    color: $dark;
+    font-weight: 500;
+    border: 1px solid var(--bs-gray-400);
+}
+
+.saprator {
+    position: relative;
+    text-align: center;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100px;
+        top: 50%;
+        height: 1px;
+        background: #e5eaef;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 100px;
+        top: 50%;
+        height: 1px;
+        background: #e5eaef;
+    }
+}

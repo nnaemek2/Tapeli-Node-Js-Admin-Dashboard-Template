@@ -1,0 +1,19 @@
+// 
+// footer.scss
+//
+
+.footer {
+    bottom: 0;
+    padding: 20px 15px;
+    position: absolute;
+    right: 0;
+    left: $sidebar-width;
+    background-color: $footer-bg;
+}
+
+@include media-breakpoint-down(md) {
+    .footer {
+        left: 0 !important;
+        text-align: center;
+    }
+}

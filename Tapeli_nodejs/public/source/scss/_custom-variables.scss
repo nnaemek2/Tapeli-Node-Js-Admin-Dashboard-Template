@@ -1,0 +1,34 @@
+//
+// custom-variables.scss
+//
+
+
+//sidebar
+$sidebar-bg:                                      #ffffff;
+$sidebar-bg-dark:                                 #001b2f;
+$sidebar-width:                                     260px;
+$sidebar-width-sm:                                  70px;
+$sidebar-item:                                       #2f384f;
+$sidebar-item-hover:                                 #537aef;
+$sidebar-item-active:                                #537aef;
+$sidebar-item-active-bg:                             #537aef1a;
+$sidebar-item-size:                                  0.938rem;
+$sidebar-sub-item-size:                              0.875rem;
+
+//dark sidebar menu color
+$sidebar-item-color-dark:                            #7d8099;
+$sidebar-item-hover-color-dark:                      #ffffff;
+$sidebar-item-hover-color-dark-bg:                   #1c1c21;
+$sidebar-item-active-color-dark:                     #ffffff;
+
+
+//Topbar
+$topbar-height:                                     70px;
+$topbar-bg-light:                                 #ffffff;
+$topbar-bg-dark:                                  var(--#{$variable-prefix}topbar-bg-dark);
+$topbar-search-bg:                                var(--#{$variable-prefix}topbar-search-bg);
+$topbar-search-bg-dark:                           var(--#{$variable-prefix}topbar-search-bg-dark);
+
+
+// Footer
+$footer-bg:                                       transparent;

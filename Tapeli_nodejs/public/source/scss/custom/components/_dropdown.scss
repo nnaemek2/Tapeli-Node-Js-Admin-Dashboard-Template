@@ -1,0 +1,15 @@
+// 
+// dropdown.scss
+//
+
+.dropdown-menu {
+    box-shadow: $box-shadow-sm;
+    i {
+        display: inline-block;
+    }
+}
+
+.dropdown-lg {
+    min-width: 22rem;
+    padding: 0px;
+}

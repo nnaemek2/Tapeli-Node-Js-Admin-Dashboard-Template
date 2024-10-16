@@ -1,0 +1,5 @@
+<!-- App css -->
+<link href="/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+<!-- Icons -->
+<link href="/css/icons.min.css" rel="stylesheet" type="text/css" />

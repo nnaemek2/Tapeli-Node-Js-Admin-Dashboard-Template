@@ -1,0 +1,30 @@
+// 
+// tables.scss
+//
+
+.table-traffic td {
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 11px 11px;
+}
+.table-traffic thead th{
+    padding: 11px 11px;
+    background-color: $gray-200;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 500;
+} 
+.table-traffic tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.table-traffic tr th:first-child, 
+.table-traffic tr td:first-child {
+    padding-left: 1.25rem;
+}
+
+.table-traffic tr th:last-child,
+.table-traffic tr td:last-child {
+    padding-right: 1.25rem;
+}

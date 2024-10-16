@@ -1,0 +1,66 @@
+/*
+Template Name: Tapeli - Responsive Bootstrap 5 Admin Dashboard
+Author: Zoyothemes
+Version: 1.0.0
+Website: https://zoyothemes.com/
+Contact: zoyothemes@gmail.com
+File: Main Css File
+*/
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "custom-variables";
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// Structure
+@import "custom/structure/general";
+@import "custom/structure/menu";
+@import "custom/structure/topbar";
+@import "custom/structure/page-head";
+@import "custom/structure/footer";
+
+// Components
+@import "custom/components/accordions";
+@import "custom/components/alert";
+@import "custom/components/avatar";
+@import "custom/components/badge";
+@import "custom/components/breadcrumb";
+@import "custom/components/buttons";
+@import "custom/components/card";
+@import "custom/components/dropdown";
+@import "custom/components/forms";
+@import "custom/components/modal";
+@import "custom/components/nav";
+@import "custom/components/pagination";
+@import "custom/components/popover";
+@import "custom/components/progress";
+@import "custom/components/reboot";
+@import "custom/components/tables";
+@import "custom/components/tabs";
+@import "custom/components/type";
+@import "custom/components/utilities";
+@import "custom/components/widgets";
+
+// Extended
+@import "custom/extended/scrollspy";
+
+// Plugins
+@import "custom/plugins/simplebar";
+@import "custom/plugins/custom-icons";
+@import "custom/plugins/maps";
+@import "custom/plugins/calendar";
+
+// Pages
+@import "custom/pages/timeline";
+@import "custom/pages/pricing";
+@import "custom/pages/faq";
+@import "custom/pages/gallery";
+@import "custom/pages/maintenance";
+@import "custom/pages/coming-soon";
+@import "custom/pages/authentication";
+@import "custom/pages/landing-page";
+@import "custom/pages/profile";

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" <%- html_attribute %>>
+
+<head>
+    <%- include('./title-meta') %>
+    <%- extra_css %>
+    <%- include ('./head-css') %>
+</head>
+
+<body data-menu-color="light" data-sidebar="default" <%- body_attribute %>>
+
+<div id="app-layout">
+
+    <%- include ('./topbar') %>
+    <%- include ('./sidebar') %>
+
+    <div class="content-page">
+
+        <div class="content">
+            <%- content %>
+        </div>
+
+        <%- include ('./footer') %>
+
+    </div>
+
+</div>
+
+<%- include ('./vendor') %>
+<%- extra_javascript %>
+</body>
+
+</html>
